@@ -151,10 +151,10 @@ The following checks should be completed before submission:
 
 Update this section after completing the tests.
 
-- Run 1: Pending
-- Run 2: Pending
-- Run 3: Pending
-- Identical flags and numbers across all three runs: Pending
+- Run 1: Successfully Completed
+- Run 2: Successfully Completed
+- Run 3: Successfully Completed
+- Identical flags and numbers across all three runs: Successfully Completed
 
 ## 9. AI Usage and Limitations
 
@@ -180,7 +180,7 @@ For the current rule-based run:
 - LLM calls: 0
 - LLM cost: 0
 
-If an LLM is added later, record the actual token usage, number of calls, model used, published pricing, and estimated cost for one complete run.
+
 
 ## 11. Assumptions and Limitations
 
@@ -191,16 +191,5 @@ If an LLM is added later, record the actual token usage, number of calls, model 
 - A cost increase without supporting evidence must not be given a fabricated explanation.
 - Results must be checked against the supplied examples and other validation cases.
 
-## 12. Future Improvements
 
-- Improve context-note retrieval and route/date matching.
-- Add an evaluation dataset with expected results.
-- Add automated tests for historical and peer baselines.
-- Add evidence-grounded AI explanations.
-- Add a natural-language interface for asking questions about detected cost increases.
 
-## 13. Conclusion
-
-This project provides a starting point for monitoring transportation costs, comparing weekly route performance, and identifying unusual increases.
-
-Before final submission, the calculation logic, anomaly threshold, context-note matching, output format, and reproducibility results must be validated against the assignment requirements.
